@@ -1,7 +1,5 @@
-### Hi, I'm Jim 👋
+I have written two books for O'Reilly Media:
 
-Repository intent is recorded in [DESIGN.md](DESIGN.md).
+* [*Fuzzy Data Matching with SQL* (2023)](https://www.oreilly.com/library/view/fuzzy-data-matching/9781098152260/)
 
-<!-- REPOS:START -->
-_Repo list updates automatically — see below._
-<!-- REPOS:END -->
+* [*Ten Steps to Linux Survival* (2015)](https://www.oreilly.com/library/view/ten-steps-to/9781492042587/)
