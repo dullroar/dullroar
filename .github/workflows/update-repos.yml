@@ -1,0 +1,64 @@
+name: Update repo list in README
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # daily at 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch public repos and rewrite README section
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, urllib.request
+
+          user = os.environ["GH_USER"]
+          token = os.environ["GH_TOKEN"]
+
+          req = urllib.request.Request(
+              f"https://api.github.com/users/{user}/repos?per_page=100&type=owner",
+              headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"},
+          )
+          with urllib.request.urlopen(req) as resp:
+              repos = json.load(resp)
+
+          repos = [r for r in repos if not r["private"] and not r["fork"]]
+          repos.sort(key=lambda r: r["name"].lower())
+
+          lines = []
+          for r in repos:
+              desc = r.get("description") or "_No description yet._"
+              lines.append(f"- **[{r['name']}]({r['html_url']})** — {desc}")
+
+          block = "\n".join(lines) if lines else "_No public repos yet._"
+
+          with open("README.md", "r", encoding="utf-8") as f:
+              content = f.read()
+
+          start = "<!-- REPOS:START -->"
+          end = "<!-- REPOS:END -->"
+          pre, rest = content.split(start, 1)
+          _, post = rest.split(end, 1)
+          new_content = f"{pre}{start}\n{block}\n{end}{post}"
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(new_content)
+          EOF
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Update repo list"
+          git push
