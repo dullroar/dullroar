@@ -1,3 +1,4 @@
+My areas of expertise include AI-assisted system migrations.
 
 I have written two books for O'Reilly Media:
 
