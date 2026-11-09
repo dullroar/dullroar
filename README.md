@@ -7,7 +7,7 @@ I have written two books for O'Reilly Media:
 * [*Ten Steps to Linux Survival* (2015)](https://www.oreilly.com/library/view/ten-steps-to/9781492042587/)
 
 <!-- REPOS:START -->
-- **[agent-context](https://github.com/dullroar/agent-context)** — _No description yet._
+- **[agent-context](https://github.com/dullroar/agent-context)** — Lightweight agent-context sharing framework.
 - **[compliance_poc](https://github.com/dullroar/compliance_poc)** — Sequential fan-out orchestrator for seven Farm Credit ACA compliance agents. Supports Anthropic, OpenAI and local Ollama models. Each agent is backed by a spec-derived system prompt.
 - **[debullshitifier](https://github.com/dullroar/debullshitifier)** — The one AI tool you need - "What does this mean to ME? No, really?"
 - **[duckdb-fs](https://github.com/dullroar/duckdb-fs)** — A FUSE file system that can read and filter attributes in CSVs and present them as directories. Inspired by lmdb-fs.
