@@ -8,6 +8,7 @@ I have written two books for O'Reilly Media:
 
 <!-- REPOS:START -->
 - **[agent-context](https://github.com/dullroar/agent-context)** — Lightweight agent-context sharing framework.
+- **[code-challenge](https://github.com/dullroar/code-challenge)** — A crazy thing I did for a Developmentor class in 2008, updated to 2026.
 - **[compliance_poc](https://github.com/dullroar/compliance_poc)** — Sequential fan-out orchestrator for seven Farm Credit ACA compliance agents. Supports Anthropic, OpenAI and local Ollama models. Each agent is backed by a spec-derived system prompt.
 - **[debullshitifier](https://github.com/dullroar/debullshitifier)** — The one AI tool you need - "What does this mean to ME? No, really?"
 - **[duckdb-fs](https://github.com/dullroar/duckdb-fs)** — A FUSE file system that can read and filter attributes in CSVs and present them as directories. Inspired by lmdb-fs.
