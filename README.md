@@ -6,6 +6,8 @@ I have written two books for O'Reilly Media:
 
 * [*Ten Steps to Linux Survival* (2015)](https://www.oreilly.com/library/view/ten-steps-to/9781492042587/)
 
+Here are my repos - enjoy!
+
 <!-- REPOS:START -->
 - **[agent-context](https://github.com/dullroar/agent-context)** — Lightweight agent-context sharing framework.
 - **[code-challenge](https://github.com/dullroar/code-challenge)** — A crazy thing I did for a Developmentor class in 2008, updated to 2026.
