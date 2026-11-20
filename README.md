@@ -10,7 +10,6 @@ Here are my repos - enjoy!
 
 <!-- REPOS:START -->
 - **[agent-context](https://github.com/dullroar/agent-context)** — Lightweight agent-context sharing framework.
-- **[code-challenge](https://github.com/dullroar/code-challenge)** — Learn Programming the Weird Way!
 - **[compliance_poc](https://github.com/dullroar/compliance_poc)** — Sequential fan-out orchestrator for seven Farm Credit ACA compliance agents. Supports Anthropic, OpenAI and local Ollama models. Each agent is backed by a spec-derived system prompt.
 - **[debullshitifier](https://github.com/dullroar/debullshitifier)** — The one AI tool you need - "What does this mean to ME? No, really?"
 - **[duckdb-fs](https://github.com/dullroar/duckdb-fs)** — A FUSE file system that can read and filter attributes in CSVs and present them as directories. Inspired by lmdb-fs.
@@ -18,6 +17,7 @@ Here are my repos - enjoy!
 - **[ffmpeg_mcp](https://github.com/dullroar/ffmpeg_mcp)** — This MCP server acts as a command gateway for LLMs and a local FFmpeg install for mass conversions of audio and video file formats.
 - **[fuzzy-examples](https://github.com/dullroar/fuzzy-examples)** — Some of the examples out of the "Fuzzy Data Matching with SQL" book from O'Reilly Media.
 - **[gpx_parser](https://github.com/dullroar/gpx_parser)** — A command-line tool that batch-processes GPX files and summarizes each route's key statistics into a single CSV file.
+- **[learn-programming-the-weird-way](https://github.com/dullroar/learn-programming-the-weird-way)** — Learn Programming the Weird Way!
 - **[llmrc](https://github.com/dullroar/llmrc)** — An "LLMRC" file, inspired by .vimrc and simillar.
 - **[lmdb-fs](https://github.com/dullroar/lmdb-fs)** — The File|Open dialog IS the user interface!
 - **[metadata_driven_gx](https://github.com/dullroar/metadata_driven_gx)** — Sample of how to create Great Expectations (gx) expectation suites from metadata and then run them.
