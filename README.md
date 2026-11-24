@@ -10,8 +10,10 @@ Here are my repos - enjoy!
 
 <!-- REPOS:START -->
 - **[agent-context](https://github.com/dullroar/agent-context)** — Lightweight agent-context sharing framework.
+- **[aprende-a-programar-como-un-bicho-raro](https://github.com/dullroar/aprende-a-programar-como-un-bicho-raro)** — _No description yet._
 - **[compliance_poc](https://github.com/dullroar/compliance_poc)** — Sequential fan-out orchestrator for seven Farm Credit ACA compliance agents. Supports Anthropic, OpenAI and local Ollama models. Each agent is backed by a spec-derived system prompt.
 - **[debullshitifier](https://github.com/dullroar/debullshitifier)** — The one AI tool you need - "What does this mean to ME? No, really?"
+- **[deterministic-controls](https://github.com/dullroar/deterministic-controls)** — Deterministic controls for AI-assisted repositories
 - **[duckdb-fs](https://github.com/dullroar/duckdb-fs)** — A FUSE file system that can read and filter attributes in CSVs and present them as directories. Inspired by lmdb-fs.
 - **[dullroar](https://github.com/dullroar/dullroar)** — My auto-generated GitHub profile front page. You're soaking in it.
 - **[ffmpeg_mcp](https://github.com/dullroar/ffmpeg_mcp)** — This MCP server acts as a command gateway for LLMs and a local FFmpeg install for mass conversions of audio and video file formats.
@@ -24,6 +26,7 @@ Here are my repos - enjoy!
 - **[metadata_driven_gx](https://github.com/dullroar/metadata_driven_gx)** — Sample of how to create Great Expectations (gx) expectation suites from metadata and then run them.
 - **[metadata_mcp](https://github.com/dullroar/metadata_mcp)** — This MCP server reads and writes metadata to a variety of file formats using exiftool, mutagen and other local tools.
 - **[pandoc_mcp](https://github.com/dullroar/pandoc_mcp)** — A simple Model Context Protocol (MCP) server that exposes pandoc document conversion as an MCP tool, via the pypandoc library. Connect it to any MCP-compatible LLM client and ask the LLM to convert documents in plain English — no pandoc CLI knowledge required on your part.
+- **[passphrase-deck](https://github.com/dullroar/passphrase-deck)** — Auditable passphrase generator for desktop and phone
 - **[posh-flasher](https://github.com/dullroar/posh-flasher)** — An inspectable Powershell script to flash bootable ISO images to USB drives
 - **[ralph-looper](https://github.com/dullroar/ralph-looper)** — Restartable, cross-agent, worktree-parallel plan runner (Ralph loop) for repos that follow repo-template
 - **[repo-template](https://github.com/dullroar/repo-template)** — Template for creating Ralph-loop amenable repos
